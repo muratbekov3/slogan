@@ -1,0 +1,134 @@
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #0088A2;
+    margin-top: 100px;
+   
+}
+footer h1 a{
+    text-decoration: none;  
+    width: 584px;
+    height: 155px;
+    color: #FFFFFF;
+font-size: 96px;
+line-height: 131px;
+}
+footer h1{
+    text-align: center;
+    padding-top: 50px;
+}
+footer h1 a:hover{
+    text-decoration: underline;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+width: 1000px;
+margin: 50px auto;
+}
+
+.contact{
+    display: flex;
+  
+}
+.contact h3{
+    font-size: 50px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+.contact0 p{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    width: 300px;
+}
+.contact1 p{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;  
+    line-height: 40px;
+    width: 500px;
+   
+}
+.contact2 p a{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 40px;
+}
+.contact2 p{
+    text-align: center;
+}
+
+
+.contact2{
+    position: absolute;
+    left: 1200px;
+}
+.contact1{
+    position: absolute;
+    left: 500px;
+}
+.contact0{
+    position: absolute;
+    left: 100px;
+}
+.contact2 p a:hover{
+    text-decoration: underline;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    footer h1 a{
+        font-size: 45px;
+    }
+    .footer img{
+        width: 70px;
+        height: 70px;
+    }
+    .footer{
+        width: 400px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact2{
+    position: relative;
+    left:10px;
+    top: 200px;
+}
+.contact h3{
+    font-size: 45px;
+}
+.contact1{
+    position: relative;
+    left: 10px;
+    top: 180px;
+}
+.contact p{
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+}
+.contact2 p a{
+    font-size: 15px;
+}
+.contact0{
+    margin-left: -100px;
+}
+.contact1{
+    margin-left: -20px;
+}
+.contact2{
+    margin-left: -10px;
+}
+
+footer{
+    height: 1000px;
+    margin-top: px;
+}
+}
